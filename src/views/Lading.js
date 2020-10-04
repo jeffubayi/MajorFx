@@ -2,42 +2,51 @@ import React from "react";
 
 import Navbar from "components/Navbar.js";
 import Footer from "components/Footer.js";
-import FX from "../assets/img/major.jpg"
+import FX from "../assets/img/major.jpg";
 
 export default function Landing() {
   return (
     <>
       <Navbar transparent />
       <main>
-        <div className="relative pt-16 pb-32 flex content-center items-center justify-center"
+        <div
+          className="relative pt-16 pb-32 flex content-center items-center justify-center"
+          style={{
+            minHeight: "75vh",
+          }}
+        >
+          <div
+            className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              minHeight: "75vh"
-            }}>
-          <div className="absolute top-0 w-full h-full bg-center bg-cover"
-              style={{
-                backgroundImage: "url(https://www.forexkings.co.za/wp-content/uploads/revslider/empreus/fxk-slide-02.jpg)"
-              }}>
-            <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-gray"></span>
+              backgroundImage:
+                "url(https://www.forexkings.co.za/wp-content/uploads/revslider/empreus/fxk-slide-02.jpg)",
+            }}
+          >
+            <span
+              id="blackOverlay"
+              className="w-full h-full absolute opacity-75 bg-gray"
+            ></span>
           </div>
           <div className="container relative mx-auto">
-              <div className="items-center flex flex-wrap">
-                <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                  <div className="pr-12">
-                    <h1 className="text-gray-500 font-semibold text-5xl">
-                      Learn.Practice.Earn
-                    </h1>
-                    <p className="mt-4 text-lg text-white">
-                    Get your daily forex road map, Signals and Mentorship.<br></br>Turn profits by following the best forex signals.
-                    </p>
-                    <a
-                  href="#"
-                  class="bg-transparent hover:bg-gray-500 text-white font-semibold hover:text-blue-100 p-2 border border-blue-900 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
-                  >Learn More</a
-                >
-                  </div>
+            <div className="items-center flex flex-wrap">
+              <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                <div className="pr-12">
+                  <h1 className="text-gray-500 font-semibold text-5xl">
+                    Learn.Practice.Earn
+                  </h1>
+                  <p className="mt-4 text-lg text-white">
+                    Get your daily forex road map, Signals and Mentorship.
+                    <br></br>Turn profits by following the best forex signals.
+                  </p>
+                  <a
+                    className="bg-transparent hover:bg-gray-500 text-white font-semibold hover:text-blue-100 p-2 border border-blue-900 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
+                    href="#"
+                  >
+                    Learn More
+                  </a>
                 </div>
-
               </div>
+            </div>
           </div>
           <div
             className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
@@ -71,15 +80,20 @@ export default function Landing() {
                   Boost your Profits with our signals
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                Using our trading signals gives huge benefits for everyone who is interested at Forex matter.
+                  Using our trading signals gives huge benefits for everyone who
+                  is interested at Forex matter.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-                Our signals can be successfully used as well as beginners and experienced traders or used by people with a lot of free time for trading and for people who are quiet busy.
+                  Our signals can be successfully used as well as beginners and
+                  experienced traders or used by people with a lot of free time
+                  for trading and for people who are quiet busy.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                Our signals are both easy and simplified method but on the other hand enough effective for everyone willing to make a profit especially when follows professional traders who know what they are doing.
+                  Our signals are both easy and simplified method but on the
+                  other hand enough effective for everyone willing to make a
+                  profit especially when follows professional traders who know
+                  what they are doing.
                 </p>
-               
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -90,18 +104,16 @@ export default function Landing() {
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4 text-bue-900">
-                  
-                      <polygon
-                        points="-30,95 583,95 583,65"
-                        className="text-blue-100 fill-current"
-                      ></polygon>
+                    <polygon
+                      points="-30,95 583,95 583,65"
+                      className="text-blue-100 fill-current"
+                    ></polygon>
                     <h4 className="text-xl font-bold text-white">
-                    Improve your Forex trading instantly with MajorFx  Signals
+                      Improve your Forex trading instantly with MajorFx Signals
                     </h4>
                   </blockquote>
                 </div>
               </div>
-
             </div>
           </div>
         </section>
@@ -138,38 +150,35 @@ export default function Landing() {
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
-                  <h3 className="text-3xl font-semibold">
-                    Major Forex Inc.
-                  </h3>
+                  <h3 className="text-3xl font-semibold">Major Forex Inc.</h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                    As well as being a profesional trader,I also teach other traders how to trade the Forex markets progitably through my forex training and mentor course. 95% of retail traders  lose money in the markets
-                    bec
+                    As well as being a profesional trader,I also teach other
+                    traders how to trade the Forex markets progitably through my
+                    forex training and mentor course. 95% of retail traders lose
+                    money in the markets bec
                   </p>
-                  
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-
         <section className="pb-20">
           <div className="container m-auto px-4">
-            <div className="flex flex-wrap justify-center text-center mb-24">
-            </div>
+            <div className="flex flex-wrap justify-center text-center mb-24"></div>
             <div className="flex flex-wrap center">
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={"https://instagram.fnbo2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/118124692_601750090524061_9011369508297795421_n.jpg?_nc_ht=instagram.fnbo2-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=WeeZoJwvXFEAX8ngcgT&oh=cfe35e0349140015383f9e2e209990cd&oe=5FA4857F"}
+                    src={
+                      "https://instagram.fnbo2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/118124692_601750090524061_9011369508297795421_n.jpg?_nc_ht=instagram.fnbo2-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=WeeZoJwvXFEAX8ngcgT&oh=cfe35e0349140015383f9e2e209990cd&oe=5FA4857F"
+                    }
                     className="shadow-lg rounded-full max-w-full mx-auto"
                     style={{ maxWidth: "120px" }}
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">
-                      Ian Keddy
-                    </h5>
+                    <h5 className="text-xl font-bold">Ian Keddy</h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                       Founder and CEO
                     </p>
@@ -234,8 +243,11 @@ export default function Landing() {
                   Why trade with me?
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                  I teach traders how to trade the professional side of the market and support them on their journey to consistent profitability.
-                  I also run a live forex trading room where myself and other professional traders trade my high probabilty Forex trading strategies,real time with real money.
+                  I teach traders how to trade the professional side of the
+                  market and support them on their journey to consistent
+                  profitability. I also run a live forex trading room where
+                  myself and other professional traders trade my high probabilty
+                  Forex trading strategies,real time with real money.
                 </p>
               </div>
             </div>
@@ -244,9 +256,7 @@ export default function Landing() {
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <i className="fab fa-leanpub text-xl"></i>
                 </div>
-                <h6 className="text-xl mt-5 font-semibold text-white">
-                  Learn
-                </h6>
+                <h6 className="text-xl mt-5 font-semibold text-white">Learn</h6>
                 <p className="mt-2 mb-4 text-gray-500">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -268,9 +278,7 @@ export default function Landing() {
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <i className="fas fa-hand-holding-usd text-xl"></i>
                 </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                  Earn
-                </h5>
+                <h5 className="text-xl mt-5 font-semibold text-white">Earn</h5>
                 <p className="mt-2 mb-4 text-gray-500">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -289,7 +297,8 @@ export default function Landing() {
                       Want to trade with us?
                     </h4>
                     <p className="leading-relaxed mt-1 mb-4 text-gray-600">
-                      Complete this form and we will get back to you in 24 hours.
+                      Complete this form and we will get back to you in 24
+                      hours.
                     </p>
                     <div className="relative w-full mb-3 mt-8">
                       <label
