@@ -40,7 +40,7 @@ export default function Landing() {
                   </p>
                   <a
                     className="bg-transparent hover:bg-gray-500 text-white font-semibold hover:text-blue-100 p-2 border border-blue-900 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
-                    href="#"
+                    href="#majorfx"
                   >
                     Learn More
                   </a>
