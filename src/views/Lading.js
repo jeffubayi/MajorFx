@@ -153,9 +153,22 @@ export default function Landing() {
                   <h3 className="text-3xl font-semibold">Major Forex Inc.</h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
                     As well as being a profesional trader,I also teach other
-                    traders how to trade the Forex markets progitably through my
-                    forex training and mentor course. 95% of retail traders lose
-                    money in the markets bec
+                    traders how to trade the Forex markets profitably through my
+                    forex training and mentor course.My training course is a
+                    real-time training course that teaches in live market
+                    conditions. This, in my opinion, is a much better way to
+                    learn Forex trading, as you can see the setups as they
+                    happen live in real time. 
+                    
+                    Here is a quote from one of my
+                    students. 
+                    <br></br>
+                    <i>
+                    “There is no such thing as a holy grail or a
+                    foolproof system in Forex trading, but I believe that what
+                    you teach, is as close to the holy grail as we are ever
+                    going to get”.
+                    </i>
                   </p>
                 </div>
               </div>
@@ -258,8 +271,8 @@ export default function Landing() {
                 </div>
                 <h6 className="text-xl mt-5 font-semibold text-white">Learn</h6>
                 <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Master my forex trading strategies through my live forex
+                  trading room.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -270,8 +283,8 @@ export default function Landing() {
                   Practice
                 </h5>
                 <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Exercise trading skills as I'll give you tips and tricks to
+                  start quick.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -280,8 +293,8 @@ export default function Landing() {
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">Earn</h5>
                 <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Start earning with my high probabilty and analyzed trading
+                  signals.
                 </p>
               </div>
             </div>
