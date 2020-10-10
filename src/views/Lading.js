@@ -32,17 +32,17 @@ export default function Landing() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-gray-500 font-semibold text-5xl">
-                    Learn.Practice.Earn
+                    Learn.Practice.<span className="text-blue-500">Earn</span>
                   </h1>
                   <p className="mt-4 text-lg text-white">
                     Get your daily forex road map, Signals and Mentorship.
                     <br></br>Turn profits by following the best forex signals.
                   </p>
                   <a
-                    className="bg-transparent hover:bg-gray-500 text-white font-semibold hover:text-blue-100 p-2 border border-blue-900 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
-                    href="#majorfx"
+                    className="bg-transparent hover:bg-gray-500 text-blue-500 font-semibold hover:text-blue-100 p-2 border border-blue-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
+                    href="https://t.me/fxmajor"
                   >
-                    Learn More
+                    see more
                   </a>
                 </div>
               </div>
@@ -96,11 +96,11 @@ export default function Landing() {
                 </p>
               </div>
 
-              <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div className="w-full md:w-6/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-900">
                   <img
                     alt="..."
-                    src="https://www.forexkings.co.za/wp-content/uploads/2019/09/signals-img-01.jpg"
+                    src="https://image.freepik.com/free-vector/stock-exchange-data-concept_23-2148604821.jpg"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4 text-bue-900">
@@ -141,7 +141,7 @@ export default function Landing() {
 
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <div className="w-full md:w-6/12 ml-auto mr-auto px-4">
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
@@ -159,16 +159,7 @@ export default function Landing() {
                     conditions. This, in my opinion, is a much better way to
                     learn Forex trading, as you can see the setups as they
                     happen live in real time. 
-                    
-                    Here is a quote from one of my
-                    students. 
-                    <br></br>
-                    <i>
-                    “There is no such thing as a holy grail or a
-                    foolproof system in Forex trading, but I believe that what
-                    you teach, is as close to the holy grail as we are ever
-                    going to get”.
-                    </i>
+
                   </p>
                 </div>
               </div>
@@ -177,18 +168,18 @@ export default function Landing() {
         </section>
 
         <section className="pb-20">
-          <div className="container m-auto px-4">
+          <div className="container m-auto px-1">
             <div className="flex flex-wrap justify-center text-center mb-24"></div>
             <div className="flex flex-wrap center">
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
+              <div className="w-full  lg:mb-0 mb-5 ">
+                <div className="px-8">
                   <img
                     alt="..."
                     src={
                       "https://instagram.fnbo2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/118124692_601750090524061_9011369508297795421_n.jpg?_nc_ht=instagram.fnbo2-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=WeeZoJwvXFEAX8ngcgT&oh=cfe35e0349140015383f9e2e209990cd&oe=5FA4857F"
                     }
                     className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
+                    style={{ maxWidth: "200px" }}
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Ian Keddy</h5>
@@ -258,9 +249,7 @@ export default function Landing() {
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                   I teach traders how to trade the professional side of the
                   market and support them on their journey to consistent
-                  profitability. I also run a live forex trading room where
-                  myself and other professional traders trade my high probabilty
-                  Forex trading strategies,real time with real money.
+                  profitability with forex trading strategies.
                 </p>
               </div>
             </div>
@@ -287,7 +276,7 @@ export default function Landing() {
                   start quick.
                 </p>
               </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
+              <div className="w-full lg:w-3/12 px-4 text-center ">
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <i className="fas fa-hand-holding-usd text-xl"></i>
                 </div>
@@ -301,8 +290,8 @@ export default function Landing() {
           </div>
         </section>
         <section className="relative block py-24 lg:pt-0 bg-gray-900">
-          <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+          <div className="container mx-auto px-4 ">
+            <div className="flex flex-wrap justify-center lg:-mt-64 -mt-47">
               <div className="w-full lg:w-6/12 px-4">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
                   <div className="flex-auto p-5 lg:p-10">
