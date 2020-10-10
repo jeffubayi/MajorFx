@@ -20,7 +20,7 @@ export default function Navbar(props) {
                 (props.transparent ? "text-white" : "text-gray-800") +
                 " text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
               }
-              href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+              
             >
               majorfx
             </a>
@@ -53,7 +53,7 @@ export default function Navbar(props) {
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="#pablo"
+                  href="https://t.me/fxmajor"
                 >
                   <i
                     className={
@@ -75,7 +75,7 @@ export default function Navbar(props) {
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="#pablo"
+                  href="https://instagram.com/fx_major?igshid=3cj4au6y0hf"
                 >
                   <i
                     className={
