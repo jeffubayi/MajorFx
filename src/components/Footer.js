@@ -27,11 +27,59 @@ export default function Footer() {
           <div className="flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4">
               <h4 className="text-3xl font-semibold">
-                Let's keep in touch!
+                Subscribe to Major Fx premium membership services!
               </h4>
-              <h5 className="text-lg mt-0 mb-2 text-gray-700">
-                Find me on any of these platforms, I'll respond Asap.
+              <h4 className="text-1xl font-semibold">
+                What do you get ?
+              </h4>
+
+              <h5 className="text-sm mt-0 mb-2 text-gray-700">
+                》2-4 Intraday Signals with multiple entries
+                </h5>
+                <h5 className="text-sm mt-0 mb-2 text-gray-700">
+》4-6 Swing trade signals every Week
+</h5>
+<h5 className="text-sm mt-0 mb-2 text-gray-700">
+》1000-2000 Profitable Pips Per month
+</h5>
+<h5 className="text-sm mt-0 mb-2 text-gray-700">
+》One on One Professional Forex Mentorship
+</h5>
+<h5 className="text-sm mt-0 mb-2 text-gray-700">
+》Detailed Chart and Video Analysis
+</h5>
+<h5 className="text-sm mt-0 mb-2 text-gray-700">
+》Weekly Market Outlook
+</h5>
+<h5 className="text-sm mt-0 mb-2 text-gray-700">
+》Learn The Forex Trading Strategies That I Use Plus 2 Bonus Strategies
+</h5> 
+<h5 className="text-sm mt-0 mb-2 text-gray-700">
+》Trading Psychology & Emotional Intelligence Training
+</h5>
+<h5 className="text-sm mt-0 mb-2 text-gray-700">
+》We will Develop A Clear Trading Plan To Maintain Your Account Growth
+</h5>
+<h5 className="text-sm mt-0 mb-2 text-gray-700">
+》You Are Going To Trade With Me From Entry To Exit.
               </h5>
+              <div>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+           <input type="hidden" name="cmd" value="_s-xclick"></input>
+          <input type="hidden" name="hosted_button_id" value="8HT723QRB3QM2"/>
+         <table>
+<tr><td><input type="hidden" name="on0" value="Subscription Plans"/>Subscription Plans</td></tr><tr><td><select name="os0">
+ <option value="1 Month">1 Month $40.00 USD</option>
+ <option value="3 Months">3 Months $80.00 USD</option>
+ <option value="6 Months">6 Months $150.00 USD</option>
+ <option value="Lifetime">Lifetime $250.00 USD</option>
+</select> </td></tr>
+            </table>
+<input type="hidden" name="currency_code" value="USD"/>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+</form>
+          </div>
               <div className="mt-6">
                 <button
                   className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"

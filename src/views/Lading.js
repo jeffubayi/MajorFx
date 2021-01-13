@@ -2,7 +2,7 @@ import React from "react";
 
 import Navbar from "components/Navbar.js";
 import Footer from "components/Footer.js";
-import FX from "../assets/img/major.jpg";
+import FX from "./assets/img/major.jpg";
 
 export default function Landing() {
   return (
@@ -176,7 +176,7 @@ export default function Landing() {
                   <img
                     alt="..."
                     src={
-                      "https://instagram.fnbo2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/118124692_601750090524061_9011369508297795421_n.jpg?_nc_ht=instagram.fnbo2-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=WeeZoJwvXFEAX8ngcgT&oh=cfe35e0349140015383f9e2e209990cd&oe=5FA4857F"
+                      "https://instagram.fnbo2-1.fna.fbcdn.net/v/t51.2885-15/e35/118124692_601750090524061_9011369508297795421_n.jpg?_nc_ht=instagram.fnbo2-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=Fb8E1STqw3QAX-wg9Ty&tp=1&oh=fb08e2df4e50f1ace7d9bb57e8c57d0a&oe=6025C095"
                     }
                     className="shadow-lg rounded-full max-w-full mx-auto"
                     style={{ maxWidth: "200px" }}
